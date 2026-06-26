@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pneumonia Detection</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Pneumonia Detection System</h1>
+
+    <input type="file" id="imageInput">
+
+    <select id="modelSelect">
+        <option value="EfficientNet">EfficientNet</option>
+        <option value="DenseNet121">DenseNet121</option>
+        <option value="MobileNetV3">MobileNetV3</option>
+    </select>
+
+    <button onclick="predict()">Predict</button>
+
+    <div id="result"></div>
+
+    <img id="gradcamImage">
+
+</div>
+
+</body>
+</html>
