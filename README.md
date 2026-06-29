@@ -25,7 +25,7 @@ In addition to binary classification (NORMAL / PNEUMONIA), the application inclu
 
 ## System Architecture
 
-```
+```text
 Chest X-ray Image
         │
         ▼
@@ -84,8 +84,6 @@ The project includes:
 - Performance evaluation
 - Independent validation
 
-Training notebooks are available inside the `notebooks/` directory.
-
 ---
 
 ## Results
@@ -106,34 +104,28 @@ Evaluation metrics include:
 
 ### Main Interface
 
-<img width="949" height="372" alt="image" src="https://github.com/user-attachments/assets/fe009582-8a69-4b2b-8519-10b51002a331" />
-
+<img width="949" height="372" alt="Main Interface" src="https://github.com/user-attachments/assets/fe009582-8a69-4b2b-8519-10b51002a331" />
 
 ---
 
 ### NORMAL Prediction
 
-<img width="949" height="812" alt="image" src="https://github.com/user-attachments/assets/f863a2a3-177b-4142-a8ae-156ef04b9846" />
-
+<img width="949" height="812" alt="NORMAL Prediction" src="https://github.com/user-attachments/assets/f863a2a3-177b-4142-a8ae-156ef04b9846" />
 
 ---
 
 ### PNEUMONIA Prediction
 
-<img width="949" height="700" alt="image" src="https://github.com/user-attachments/assets/9d69b4cc-f431-47db-9bcf-622ebef6db2c" />
-
+<img width="949" height="700" alt="PNEUMONIA Prediction" src="https://github.com/user-attachments/assets/9d69b4cc-f431-47db-9bcf-622ebef6db2c" />
 
 ---
 
 ### Invalid Image Rejection
 
-
-<img width="949" height="330" alt="image" src="https://github.com/user-attachments/assets/88fc5b24-432c-425a-82f3-2e74513affda" />
+<img width="949" height="330" alt="Invalid Image Rejection" src="https://github.com/user-attachments/assets/88fc5b24-432c-425a-82f3-2e74513affda" />
 
 ---
 
-
-````markdown
 ## Repository Structure
 
 ```text
@@ -166,9 +158,6 @@ Pneumonia-Detection/
 - **Procfile** – Deployment configuration.
 - **requirements.txt** – Python dependencies.
 - **README.md** – Project documentation.
-````
-
-
 
 ---
 
@@ -189,9 +178,8 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-python app.py
+python backend/app.py
 ```
-
 
 ---
 
@@ -211,7 +199,6 @@ python app.py
 Bachelor's Degree in Artificial Intelligence
 
 GitHub: https://github.com/khawlaabarane
-
 
 ---
 
