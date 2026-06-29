@@ -134,10 +134,6 @@ Evaluation metrics include:
 
 ## Repository Structure
 
-```text
-## Repository Structure
-
-```
 
 Pneumonia-Detection/
 │
