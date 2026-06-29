@@ -156,6 +156,30 @@ Pneumonia-Detection/
 
 ```
 
+````markdown
+## Repository Structure
+
+```text
+Pneumonia-Detection/
+│
+├── backend/
+│   ├── saved_models/
+│   │   ├── chest_validator.pth
+│   │   ├── densenet121.pth
+│   │   ├── efficientnet.pth
+│   │   └── mobilenetv3.pth
+│   └── app.py
+│
+├── frontend/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+│
+├── Procfile
+├── requirements.txt
+└── README.md
+```
+
 ### Directory Description
 
 - **backend/** – FastAPI backend and trained deep learning models.
@@ -165,7 +189,8 @@ Pneumonia-Detection/
 - **Procfile** – Deployment configuration.
 - **requirements.txt** – Python dependencies.
 - **README.md** – Project documentation.
-```
+````
+
 
 
 ---
