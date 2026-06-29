@@ -106,25 +106,29 @@ Evaluation metrics include:
 
 ### Main Interface
 
-*(Insert screenshot here)*
+<img width="949" height="372" alt="image" src="https://github.com/user-attachments/assets/fe009582-8a69-4b2b-8519-10b51002a331" />
+
 
 ---
 
 ### NORMAL Prediction
 
-*(Insert screenshot here)*
+<img width="949" height="812" alt="image" src="https://github.com/user-attachments/assets/f863a2a3-177b-4142-a8ae-156ef04b9846" />
+
 
 ---
 
 ### PNEUMONIA Prediction
 
-*(Insert screenshot here)*
+<img width="949" height="700" alt="image" src="https://github.com/user-attachments/assets/9d69b4cc-f431-47db-9bcf-622ebef6db2c" />
+
 
 ---
 
 ### Invalid Image Rejection
 
-*(Insert screenshot here)*
+
+<img width="949" height="330" alt="image" src="https://github.com/user-attachments/assets/88fc5b24-432c-425a-82f3-2e74513affda" />
 
 ---
 
@@ -149,7 +153,7 @@ Pneumonia-Detection/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Pneumonia-Detection.git
+git clone https://github.com/khawlaabarane/Pneumonia-Detection-System.git
 ```
 
 Install dependencies:
@@ -164,20 +168,11 @@ Run the application:
 python app.py
 ```
 
-or
-
-```bash
-uvicorn main:app --reload
-```
-
-(depending on your project structure)
 
 ---
 
 ## Future Improvements
 
-- Vision Transformer (ViT)
-- Explainable AI (Grad-CAM)
 - Docker deployment
 - Cloud deployment
 - Multi-class disease classification
