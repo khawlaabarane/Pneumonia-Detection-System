@@ -134,17 +134,43 @@ Evaluation metrics include:
 
 ## Repository Structure
 
-```
-Pneumonia-Detection/
+```text
+## Repository Structure
 
-├── app/
-├── models/
-├── notebooks/
-├── screenshots/
-├── requirements.txt
-├── README.md
-└── LICENSE
 ```
+
+Pneumonia-Detection/
+│
+├── backend/
+│   ├── saved_models/
+│   │   ├── chest_validator.pth
+│   │   ├── densenet121.pth
+│   │   ├── efficientnet.pth
+│   │   └── mobilenetv3.pth
+│   └── app.py
+│
+├── frontend/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+│
+├── Procfile
+├── requirements.txt
+└── README.md
+
+```
+
+### Directory Description
+
+- **backend/** – FastAPI backend and trained deep learning models.
+- **saved_models/** – Pre-trained models used for pneumonia detection and chest X-ray validation.
+- **frontend/** – Web interface built with HTML, CSS and JavaScript.
+- **app.py** – Main application entry point.
+- **Procfile** – Deployment configuration.
+- **requirements.txt** – Python dependencies.
+- **README.md** – Project documentation.
+```
+
 
 ---
 
