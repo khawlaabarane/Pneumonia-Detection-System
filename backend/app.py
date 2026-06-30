@@ -70,14 +70,15 @@ validator_model.eval()
 print("✅ Chest Validator loaded")
 
 # Home
+FRONTEND_DIR = os.path.join(BASE_DIR, "..", "frontend")
+
 @app.route("/")
 def serve_frontend():
-    return send_from_directory("../frontend", "index.html")
+    return send_from_directory(FRONTEND_DIR, "index.html")
 
 @app.route("/<path:path>")
 def static_files(path):
-    return send_from_directory("../frontend", path)
-
+    return send_from_directory(FRONTEND_DIR, path)
 # TRANSFORM
 
 transform = transforms.Compose([
